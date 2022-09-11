@@ -9,7 +9,7 @@ export const config = {
   APP_ID: "wx8d64e6a5bb8c8e8d",
 
   // 公众号APP_SECRET
-  // 建议不要填这里，请使用文档中github secret的方法进行保密配置，保护您的隐私安全。
+  // 建议不要填这里，请使用文档中github scret的方法进行保密配置，保护您的隐私安全。
   // 如果你非要填这里也行。脚本也能运行
   APP_SECRET: "f391db396e91ebd012d0d334b2e760ad",
 
@@ -22,7 +22,7 @@ export const config = {
    *    // 扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
    *    id: "o9ZKR6lvhFFnAWA998vv5-zK11VI",
    *    // 你想对他发送的模板消息的模板ID
-   *    useTemplateId: "Qg9qDWhtWlzPqS3QdUj639yEmrF3wBE5tiULBXA5LE0	",
+   *    useTemplateId: "Qg9qDWhtWlzPqS3QdUj639yEmrF3wBE5tiULBXA5LE0",
    *    // 他点击详情后跳转的页面,你可以设置成微博的热榜，也可以设置成其他，网址一定要填对；不填对也没关系，随便你，会打不开而已。
    *    openUrl: "https://wangxinleo.cn"
    *   },
@@ -33,7 +33,7 @@ export const config = {
       // 想要发送的人的名字
       name: "老婆0",
       // 扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
-      id: "o9ZKR6lvhFFnAWA998vv5-zK11VI
+      id: "o9ZKR6lvhFFnAWA998vv5-zK11VI",
 ",
       // 你想对他发送的模板消息的模板ID
       useTemplateId: "Qg9qDWhtWlzPqS3QdUj639yEmrF3wBE5tiULBXA5LE0",
