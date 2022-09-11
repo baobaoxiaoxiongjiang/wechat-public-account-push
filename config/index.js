@@ -35,11 +35,11 @@ export const config = {
       // 扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
       id: "o9ZKR6lvhFFnAWA998vv5-zK11VI",
       // 你想对他发送的模板消息的模板ID
-      useTemplateId: "e55T2K0Ja_j9Eh4_ockvdH_o-jO9caZ-Z3BJxHkxKuk",
+      useTemplateId: "Zd0PcyE-o5dCAk_cFsu_P8CTs0oYMR-EFYGLouPbLzg",
       // 所在省份
-      province: "广东",
+      province: "河南",
       // 所在城市
-      city: "肇庆",
+      city: "郑州",
       // 新历生日, 仅用作获取星座运势, 格式必须
       horoscopeDate: '12-27',
       // 获取什么时候的星座运势，可选：['今日', '明日', '本周', '本月', '今年'], 留空则随机
@@ -64,59 +64,6 @@ export const config = {
         // 退伍日
         {"keyword": "ex_day", date: "2022-09-10"},
       ]
-    },
-    {
-      name: "老婆1",
-      id: "",
-      useTemplateId: "",
-      province: "",
-      city: "",
-      horoscopeDate: '',
-      horoscopeDateType: '',
-      openUrl: "https://wangxinleo.cn",
-      festivals: [],
-      customizedDateList: []
-    },
-    {
-      name: "老婆2",
-      id: "",
-      useTemplateId: "",
-      province: "",
-      city: "",
-      horoscopeDate: '',
-      horoscopeDateType: '',
-      openUrl: "https://wangxinleo.cn",
-      festivals: [],
-      customizedDateList: []
-    },
-    {
-      name: "老婆3",
-      id: "",
-      useTemplateId: "",
-      province: "",
-      city: "",
-      horoscopeDate: '',
-      horoscopeDateType: '',
-      openUrl: "https://wangxinleo.cn",
-      festivals: [],
-      customizedDateList: []
-    },
-  ],
-
-  /**
-   * 【推送完成提醒】 相关，主要用来展示发送是否成功/失败的数据
-   */
-
-  // 【推送完成提醒】模板id, 用来看自己有没有发送成功的那个模板
-  CALLBACK_TEMPLATE_ID: "",
-
-  // 接收成功回调消息的微信号，（一般来说只填自己的微信号, name填不填无所谓）
-  CALLBACK_USERS: [
-    {
-      // 一般都填自己
-      name: "自己",
-      // 自己的微信id，扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
-      id: "",
     },
   ],
 
